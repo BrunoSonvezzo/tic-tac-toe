@@ -1,0 +1,54 @@
+body 
+{
+
+    margin: 0;
+    background-image: url(../images/wood.jpeg);
+    background-size: cover;
+    background: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.txt 
+{
+
+    font-family: Impact, fantasy;
+    text-align:center;
+    color: rgb(165, 122, 69);
+    font-size: medium;
+
+}
+
+.board 
+{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.board button
+{
+
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    background: rgb(248, 230, 207);
+    border-radius: 12%;
+    border-color: rgb(165, 122, 69);
+    border-style: outset;
+
+}
+
+main
+{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
